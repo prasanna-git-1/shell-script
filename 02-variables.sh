@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERON1=RAMESH # No space between person1 and name
+PERSON1=RAMESH # No space between person1 and name
 PERSON2=SURESH
 
 echo "$PERSON1:: hello $PERSON2 , how are you?"
