@@ -1,2 +1,4 @@
-first coding 
-steps for coading
+#!/bin/bash
+
+echo "first coding"
+echo "steps for coading"
