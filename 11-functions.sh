@@ -16,10 +16,10 @@ fi
 VALIDATE(){
     if [ $1 -ne 0 ]
     then 
-        echo "$2 failure" 
+        echo -e "\e[31m $2 failure \e[0m " 
         exit 1 
     else 
-          echo "$2 success"
+          echo -e "\e[32m $2 success \e[0m"
     fi           
 }
 
